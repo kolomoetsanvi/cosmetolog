@@ -1,0 +1,104 @@
+﻿#searchCosmetolog,
+#searchArticle
+{
+    /*background-color: #536DFE;*/
+    background: linear-gradient(-35deg, #1e11ff, #1577fe);
+}
+
+body,
+.panelCosmetologies,
+.panelArticles,
+.panelCosmetolog,
+.panelArticle
+{
+    background-color: #fff;
+}
+
+
+header {
+    background-color: #f44336;
+    box-shadow: inset 2px -2px 20px 2px #fe3900;
+}
+
+
+.headText
+{
+
+    color: #fff;
+
+    text-shadow:
+        -1px -1px 0 #000,
+        0px  -1px 0 #000,
+        -1px  1px 0 #000,
+        0px   3px 0 #000;
+}
+.headText2
+{
+    color: white;
+    text-shadow:
+        -1px -1px 0 #000,
+        -1px  -1px 0 #000,
+        -1px  1px 0 #000,
+        1px   1px 0 #000;
+}
+
+#topText{
+    /*color: white; !!!!!!!!!*/
+    color: black;
+}
+
+
+.labelSearchCosmetolog{
+    color: white;
+}
+
+
+/*Index*/
+/*#btCosmetolog, #btArticles{*/
+/*    background-color: #B3E5FC;*/
+/*}*/
+/*#btCosmetolog:hover, #btArticles:hover{*/
+/*    background-color: #03A9F4;*/
+/*}*/
+
+
+#rowAfterMap{
+    background-color: #f5f5f5;
+}
+
+#rowsearchArticle, footer {
+    /*background: linear-gradient(-35deg, #cfd8dc, #90a4ae);*/
+    background: linear-gradient(-90deg, #cfd8dc, #90a4ae);
+}
+
+
+
+
+
+/* -------------------------------------------------------------------------------------*/
+/* Навигационная панель */
+/* -------------------------------------------------------------------------------------*/
+
+.navbar-default {
+    background-color: #fff;
+
+}
+
+
+/* Цвет пунктов навигационного меню */
+.navbar-default .navbar-nav > li > a {
+    color: #474758;
+}
+
+/* Цвет пункта меню, при поднесении к нему курсора мышки или при его нахождении в фокусе */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+
+    /*background-color: #66A1D2;*/
+    color: #536DFE;
+}
+
+
+/* -------------------------------------------------------------------------------------*/
+/* -------------------------------------------------------------------------------------*/
+

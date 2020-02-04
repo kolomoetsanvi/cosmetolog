@@ -1,0 +1,383 @@
+﻿body{
+    /*background-image: url(../img/fon1.png);*/
+    /*background-attachment: fixed;*/
+    /*background-size: cover;*/
+}
+
+/*-------------------------------------------------------*/
+/* Главная полоса с фото салона и контактными данными*/
+/*-------------------------------------------------------*/
+#rowMain{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background-color: #f5f5f5;
+}
+.panelCosmetologMain{
+   box-shadow: 0px 0px 5px #536DFE;
+    background-color: #f5f5f5;
+    padding: 5px;
+}
+.panelCosmetologMain:hover{
+    box-shadow: 0px 0px 1px 2px #536DFE;
+}
+
+
+.warningColor{
+    color: #f08327;
+    text-shadow:
+        0px  1px 0 #000,
+        0px   1px 0 #000,
+        0px   1px 0 #000,
+        0px   1px 0 #000;
+}
+
+/* Список логотипов сетей*/
+ul.logoSeti li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+}
+
+/* логотипы сайтов*/
+.img-logoSite{
+    max-height: 32px;
+}
+/*-------------------------------------------------------*/
+/*-------------------------------------------------------*/
+/*-------------------------------------------------------*/
+
+
+/*-------------------------------------------------------*/
+/* Полоса с кратким описанием и картой*/
+/*-------------------------------------------------------*/
+
+#rowWithMap{
+    /*background-color: #bdbdbd;*/
+    background: linear-gradient(90deg, #cfd8dc, #90a4ae);
+    padding: 10vh 5vh;
+}
+
+#divTextBrief p{
+    text-align: justify;
+    font-size: 2rem;
+}
+
+/*-------------------------------------------------------*/
+/*-------------------------------------------------------*/
+/*-------------------------------------------------------*/
+
+
+/*-------------------------------------------------------*/
+/* Полоса с фото персонала*/
+/*-------------------------------------------------------*/
+#rowWithPersonnel{
+    padding:5vh;
+    box-shadow: 0px 5px 20px 3px #888;
+    border-bottom: 1px solid dimgray;
+}
+
+#rowWithPersonnelText{
+    margin-bottom: 5vh;
+}
+
+
+/* Фото сотрудников*/
+ul.fotoPersonnel li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+}
+
+/* Фото сотрудников*/
+.img-personnel{
+    max-height: 180px;
+    max-width: 100%;
+    border-radius: 80px;
+}
+
+
+/*-------------------------------------------------------*/
+/*-------------------------------------------------------*/
+/*-------------------------------------------------------*/
+
+/*-------------------------------------------------------*/
+/* Полоса с фото работ*/
+/*-------------------------------------------------------*/
+
+#rowWithworks{
+    padding: 5vh;
+    background-color: #f5f5f5;
+    /*background: linear-gradient(to bottom, #fff, #f5f5f5);;*/
+}
+
+#rowWithWorksText{
+    margin-bottom: 5vh;
+}
+
+.divImgWorks{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Фото работ*/
+/*ul.fotoWorks li {*/
+/*    display: inline; !* Отображать как строчный элемент *!*/
+/*    margin-right: 5px; !* Отступ слева *!*/
+/*}*/
+
+/* логотипы сайтов*/
+.img-works{
+    max-height: 180px;
+    /*border-radius: 10px;*/
+}
+
+
+/*-------------------------------------------------------*/
+/* Полоса c Акционными предложениями*/
+/*-------------------------------------------------------*/
+
+#rowWithPromotion{
+    padding: 5vh;
+    background: linear-gradient(-90deg,#e3f2fd, #f5f8ff);
+;
+    /*background: linear-gradient(to bottom, #fff, #f5f5f5);;*/
+}
+
+#rowWithPromotionText{
+    margin-bottom: 5vh;
+    /*color: #f44336;*/
+}
+
+
+/*.thumbnailPromotion{*/
+/*    min-height: 52vh;*/
+/*    max-height: 52vh;*/
+/*}*/
+
+.panelPromotion
+{
+    max-width: 80%;
+}
+.panelPromotion:hover {
+    border: 1px solid #f44336;
+}
+
+
+.panelPromotion .panel-heading, .panel-body, .panel-footer{
+    padding: 1px;
+}
+
+.panelPromotion .panel-heading{
+    background-color:  #e3f2fd;
+}
+
+.img-promotion{
+    max-height: 20vh;
+    min-height: 20vh;
+    max-width: 100%;
+    /*min-width: 100%;*/
+}
+
+#rowWithNewCost{
+    background: linear-gradient(-35deg, #1e11ff, #1577fe);
+    color: white;
+    margin-left: -6px;
+    margin-right: -5px;
+    margin-top: -2px;
+    border-radius: 3px;
+    padding-top: 1vh;
+    min-height: 5vh;
+    max-height: 5vh;
+}
+
+#textService{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1vh;
+    min-height: 10vh;
+    max-height: 10vh;
+    font-weight: bold;
+    color: #f05000;
+
+}
+
+#textDate{
+    /*min-height: 8vh;*/
+    /*max-height: 8vh;*/
+    /*margin-left: -4px;*/
+    /*margin-right: -4px;*/
+    /*background-color: #f5f5f5;*/
+}
+
+
+
+#btnAllPromotion{
+    margin-bottom: 2vh;
+    background: linear-gradient(-35deg, #2196f3, #64b5f6);
+    color: white;
+    font-size: 1.1em;
+}
+/*-------------------------------------------------------*/
+/*-------------------------------------------------------*/
+/*-------------------------------------------------------*/
+
+#rowWithPrice{
+    padding: 5vh;
+}
+
+#rowWithPriceText{
+    margin-bottom: 5vh;
+}
+
+/*-------------------------------------------------------*/
+/*-------------------------------------------------------*/
+/*-------------------------------------------------------*/
+
+
+/*  ========================= */
+/*   Карусель главные фото    */
+/*  ========================= */
+
+#myCarousel{
+    min-height: 45vh;
+    /*max-height: 45vh;*/
+}
+
+
+/*.caption{*/
+/*    min-height: 22vh;*/
+/*    max-height: 22vh;*/
+/*}*/
+
+/*.divImgKarusel{*/
+/*    max-height: 320px;*/
+/*    min-height: 320px;*/
+/*}*/
+.img-thumbnail{
+    max-height: 320px;
+    max-width: 480px;
+}
+
+.divImgThumbnail{
+    max-height: 20vh;
+    min-height: 20vh;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+/*.divTextThumbnail{*/
+/*    max-height: 12vh;*/
+/*    min-height: 12vh;*/
+/*    max-width: 100%;*/
+/*    min-width: 100%;*/
+/*}*/
+
+#rowImgMin{
+    margin-top: 5px;
+}
+#rowImgMin img{
+    max-height: 40px;
+    max-width: 60px;
+}
+
+
+/* Mobile Only */
+/*@media (max-width: 767px) {*/
+/*    .control-box {*/
+/*        text-align: center;*/
+/*    }*/
+/*}*/
+/*@media (max-width: 479px) {*/
+/*    .caption {*/
+/*        word-break: break-all;*/
+/*    }*/
+/*}*/
+/*  ========================= */
+/*  ========================= */
+
+
+
+
+/*  ========================= */
+/*  Карусель фото сотрудников */
+/*  ========================= */
+
+#myCarouselPersonnel{
+    min-height: 40vh;
+    /*max-height: 45vh;*/
+}
+
+
+.thumbnailPersonnel{
+    padding: 5px;
+    background-color: #fff;
+    border: none;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.thumbnailPersonnel:hover {
+    margin-top: -2px;
+    box-shadow: 5px 4px 15px;
+}
+
+/*.caption{*/
+/*    min-height: 22vh;*/
+/*    max-height: 22vh;*/
+/*}*/
+
+/*.divImgKarusel{*/
+/*    max-height: 320px;*/
+/*    min-height: 320px;*/
+/*}*/
+/*.img-thumbnail{*/
+/*    max-height: 100%;*/
+/*    max-width: 480px;*/
+/*}*/
+
+/*.divImgThumbnail{*/
+/*    max-height: 20vh;*/
+/*    min-height: 20vh;*/
+/*    max-width: 100%;*/
+/*    min-width: 100%;*/
+/*}*/
+
+/*.divTextThumbnail{*/
+/*    max-height: 12vh;*/
+/*    min-height: 12vh;*/
+/*    max-width: 100%;*/
+/*    min-width: 100%;*/
+/*}*/
+
+/*#rowImgMin{*/
+/*    margin-top: 5px;*/
+/*}*/
+/*#rowImgMin img{*/
+/*    max-height: 40px;*/
+/*    max-width: 60px;*/
+/*}*/
+
+
+/* Carousel Control */
+.control-box {
+    text-align: right;
+    width: 100%;
+}
+.carousel-control{
+    background: #f5f5f5;
+    border: 0px;
+    border-radius: 0px;
+    color: grey;
+    display: inline-block;
+    font-size: 34px;
+    font-weight: 200;
+    line-height: 20px;
+    opacity: 0.2;
+    /*padding: 4px 10px 0px;*/
+    /*position: static;*/
+    margin-top: 20vh;
+    padding-top: 5px;
+    height: 40px;
+    width: 20px;
+    text-align: center;
+}
+
+

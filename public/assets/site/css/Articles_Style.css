@@ -1,0 +1,37 @@
+﻿body{
+    /*    background-image: url(../img/fon1.png);*/
+    /*    background-attachment: fixed;*/
+    /*    background-size: cover;*/
+    background-color: #f5f5f5;
+}
+
+.panelArticles{
+    margin-top: 2vh;
+    padding: 20px;
+    box-shadow: 0 0 10px #536DFE;
+    border: 2px solid #dddaff;
+
+    background-color: white;
+}
+
+.panelArticles:hover {
+    /*box-shadow: 4px 2px 15px #f44336;*/
+    border: 2px solid #536DFE;
+
+}
+
+.imgArticles{
+    max-height: 200px;
+    max-width: 100%;
+}
+
+
+.panelArticles a {
+    color: #fe5a00;
+    text-shadow:
+        0px  0.5px 0 #000,
+        0px   0.5px 0 #000,
+        0px   0.5px 0 #000,
+        0px   0.5px 0 #000;
+}
+

@@ -1,0 +1,89 @@
+<?php
+
+use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+
+class CosmetologiesPersonnelSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        DB::table('cosmetologies_personnel')->insert(
+            [
+                [
+                    'cosmetologies_id'=>'1',
+                    'personnel_id'=>'1',
+                     'created_at'=>'2019-07-01'
+                ],
+                [
+                    'cosmetologies_id'=>'1',
+                    'personnel_id'=>'2',
+                    'created_at'=>'2019-07-01'
+                ],
+                [
+                    'cosmetologies_id'=>'1',
+                    'personnel_id'=>'3',
+                    'created_at'=>'2019-07-01'
+                ],
+                [
+                    'cosmetologies_id'=>'1',
+                    'personnel_id'=>'4',
+                    'created_at'=>'2019-07-01'
+                ],
+                [
+                    'cosmetologies_id'=>'1',
+                    'personnel_id'=>'5',
+                    'created_at'=>'2019-07-01'
+                ],
+                [
+                    'cosmetologies_id'=>'2',
+                    'personnel_id'=>'6',
+                    'created_at'=>'2019-07-01'
+                ],
+                [
+                    'cosmetologies_id'=>'2',
+                    'personnel_id'=>'7',
+                    'created_at'=>'2019-07-01'
+                ],
+                [
+                    'cosmetologies_id'=>'2',
+                    'personnel_id'=>'8',
+                    'created_at'=>'2019-07-01'
+                ],
+                [
+                    'cosmetologies_id'=>'3',
+                    'personnel_id'=>'6',
+                    'created_at'=>'2019-07-01'
+                ],
+                [
+                    'cosmetologies_id'=>'3',
+                    'personnel_id'=>'7',
+                    'created_at'=>'2019-07-01'
+                ],
+                [
+                    'cosmetologies_id'=>'3',
+                    'personnel_id'=>'3',
+                    'created_at'=>'2019-07-01'
+                ],
+                [
+                    'cosmetologies_id'=>'3',
+                    'personnel_id'=>'4',
+                    'created_at'=>'2019-07-01'
+                ],
+                [
+                    'cosmetologies_id'=>'4',
+                    'personnel_id'=>'9',
+                    'created_at'=>'2019-07-01'
+                ],
+                [
+                    'cosmetologies_id'=>'5',
+                    'personnel_id'=>'10',
+                    'created_at'=>'2019-07-01'
+                ],
+            ]);
+    }
+}
